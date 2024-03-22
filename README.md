@@ -15,5 +15,9 @@
 
 6. Coordinate with your team when everyone can merge their branches in succession, and then proceed to pull down the new Main branch.
 7. In github and locally delete the branches that were merged.
+In your terminal move to a different branch from the one you want to delete
+<mark>git checkout name-branch</mark> or <mark>git switch name-branch</mark>
+Delete command
+<mark>git branch -d name-branch</mark>
 8. Once the most up to date version of Main was pulled down, proceed to create a new branch locally and continue your work there.
 9.** Repeat steps 4-8**

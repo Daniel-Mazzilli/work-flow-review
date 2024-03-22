@@ -14,6 +14,6 @@
 
 6. Coordinate with your team when everyone can merge their branches in succession, and then proceed to pull down the updates merged on the Main branch, `git pull origin main`
 
-7. In github and locally delete the branches that were merged. In your terminal move to a different branch from the one you want to delete: `git checkout name-branch` or `git switch name-branch` Delete command: `git branch -d name-branch`
+7. In github and locally delete the branches that were merged. In your terminal move to a different branch from the one you want to delete: `git checkout name-branch` or `git switch name-branch` Delete command: `git branch -d name-branch` if you try to delete locally before you pulled down the updated main you will need to use the command `git branch -D name-branch`
 
 8. Once the most up to date version of Main was pulled down, proceed to create a new branch locally and continue your work there. **See steps 4-7**

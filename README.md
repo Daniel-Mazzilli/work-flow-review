@@ -8,16 +8,16 @@
 **On the repo page -> Settings -> Collaborators -> Add people**
 4. *Avoid working on the Main branch*, each team member should create their own branch locally
 
-<mark>git checkout -b name-branch</mark> or <mark>git switch -c name-branch</mark>
+`git checkout -b name-branch` or `git switch -c name-branch`
 
 5. Avoid working on the same files/components simultaneously. Add, Commit, and Push your changes to github
-<mark>git push origin name-branch</mark>
+`git push origin name-branch`
 
 6. Coordinate with your team when everyone can merge their branches in succession, and then proceed to pull down the new Main branch.
 7. In github and locally delete the branches that were merged.
 In your terminal move to a different branch from the one you want to delete
-<mark>git checkout name-branch</mark> or <mark>git switch name-branch</mark>
+`git checkout name-branch` or `git switch name-branch`
 Delete command
-<mark>git branch -d name-branch</mark>
+`git branch -d name-branch`
 8. Once the most up to date version of Main was pulled down, proceed to create a new branch locally and continue your work there.
 9.** Repeat steps 4-8**
